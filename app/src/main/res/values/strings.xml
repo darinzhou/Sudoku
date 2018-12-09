@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">New Game</string>
+    <string name="settings">Settings</string>
+    <string name="best_times">Best Times</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="clear_all">Clear All</string>
+    <string name="check">Check</string>
+    <string name="level_easy">Easy</string>
+    <string name="level_medium">Medium</string>
+    <string name="level_hard">Hard</string>
+    <string name="level_tough">Tough</string>
+    <string name="error_duplicated">%1$d is duplicated.</string>
+    <string name="error_not_found">No error was found for now.</string>
+    <string name="msg_blanks">%1$s (%2$d) / %3$d Blanks Left</string>
+    <string name="msg_new_game">Please start a new game.</string>
+    <string name="msg_solved">The puzzle has been solved.</string>
+    <string name="msg_paused">Game was paused.</string>
+    <string name="sure_to_replay">This puzzle has been solve. Are you sure to replay it?</string>
+    <string name="sure_to_clear_all">Are you sure to clear all input?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="auto_check">Auto Check Errors</string>
+    <string name="auto_help">Show possible numbers for current blank</string>
+    <string name="save_game">Save Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="save_game_msg">Please input a name to save your game:</string>
+    <string name="load_game_msg">Please select a game to load:</string>
+    <string name="file_exists">File %1$s exists, do you want to overwrite it?</string>
+    <string name="invalid_game">Game %1$s is empty or corrupted. Do you want to remove it?</string>
+    <string name="no_saved_game">There is no saved game to load.</string>
+    <string name="saved_games">Saved Games:</string>
+    <string name="button_remove">Remove</string>
+    <string name="button_select_all">Select All</string>
+    <string name="button_deselect_all">Deselect All</string>
+    <string name="easy_1">1. %1$s\t\t\t\t%2$s</string>
+    <string name="easy_2">2. %1$s\t\t\t\t%2$s</string>
+    <string name="easy_3">3. %1$s\t\t\t\t%2$s</string>
+    <string name="medium_1">1. %1$s\t\t\t\t%2$s</string>
+    <string name="medium_2">2. %1$s\t\t\t\t%2$s</string>
+    <string name="medium_3">3. %1$s\t\t\t\t%2$s</string>
+    <string name="hard_1">1. %1$s\t\t\t\t%2$s</string>
+    <string name="hard_2">2. %1$s\t\t\t\t%2$s</string>
+    <string name="hard_3">3. %1$s\t\t\t\t%2$s</string>
+    <string name="tough_1">1. %1$s\t\t\t\t%2$s</string>
+    <string name="tough_2">2. %1$s\t\t\t\t%2$s</string>
+    <string name="tough_3">3. %1$s\t\t\t\t%2$s</string>
+    <string name="no_1">best</string>
+    <string name="no_2">second best</string>
+    <string name="no_3">third best</string>
+    <string name="input_name_for_record_msg">Congratulations! You got the %1$s record of the %2$s level. \n\nPlease input your name and click the OK button to save your record.</string>
+    <string name="input_name_for_record_title">Best Time Record</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="reset">Reset</string>
+    <string name="no_records">(No Records)</string>
+    <string name="free_version_title">Sudoku Free Version</string>
+    <string name="free_version_msg">Only Easy level puzzles are enabled on this version. You are welcome to download the full version to enjoy playing puzzles in all levels.</string>
+    <string name="loading">Loading...</string>
+    <string name="sure_to_load_game">Your current game will be lost, are you sure to continue?</string>
+    
+    
+</resources>

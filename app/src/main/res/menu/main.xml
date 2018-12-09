@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/miNewGame"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/new_game"/>
+    <item
+        android:id="@+id/miPause"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/pause"/>
+    <item
+        android:id="@+id/miSettings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/miBestTimes"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/best_times"/>
+    
+</menu>
