@@ -5,6 +5,7 @@ import java.io.File;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnShowListener;
 import android.os.Bundle;
@@ -40,7 +41,7 @@ public class SaveFileDialogFragment extends DialogFragment {
 	 * @see android.support.v4.app.DialogFragment#onAttach(android.app.Activity)
 	 */
 	@Override
-	public void onAttach(Activity activity) {
+	public void onAttach(Context activity) {
 		super.onAttach(activity);        
 		// Verify that the host activity implements the callback interface        
 		try {            

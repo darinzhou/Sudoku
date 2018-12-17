@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -70,7 +71,7 @@ public class SettingsDialogFragment extends DialogFragment {
 	
 	// Override the Fragment.onAttach() method to instantiate the SettingsDialogListener    
 	@Override    
-	public void onAttach(Activity activity) {        
+	public void onAttach(Context activity) {
 		super.onAttach(activity);        
 		// Verify that the host activity implements the callback interface        
 		try {            

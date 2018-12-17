@@ -1,6 +1,6 @@
 package com.easyware.sudoku;
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
@@ -23,20 +23,20 @@ public class NewGameDialogFragment extends DialogFragment {
 	private NewGameDialogListener mListener;        
 	
 	// Override the Fragment.onAttach() method to instantiate the NewGameDialogListener    
-	@Override    
-	public void onAttach(Activity activity) {        
-		super.onAttach(activity);        
-		// Verify that the host activity implements the callback interface        
-		try {            
-			// Instantiate the NoticeDialogListener so we can send events to the host            
-			mListener = (NewGameDialogListener) activity;        
-		} 
-		catch (ClassCastException e) {            
-			// The activity doesn't implement the interface, throw exception            
-			throw new ClassCastException(activity.toString() + " must implement NewGameDialogListener");        
-		}   		
+	@Override
+	public void onAttach(Context context) {
+		super.onAttach(context);
+		// Verify that the host activity implements the callback interface
+		try {
+			// Instantiate the NoticeDialogListener so we can send events to the host
+			mListener = (NewGameDialogListener) context;
+		}
+		catch (ClassCastException e) {
+			// The activity doesn't implement the interface, throw exception
+			throw new ClassCastException(context.toString() + " must implement NewGameDialogListener");
+		}
 	}
-	
+
 	/* (non-Javadoc)
 	 * @see android.support.v4.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
 	 */
